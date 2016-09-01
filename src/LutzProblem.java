@@ -22,9 +22,10 @@ public class LutzProblem {
      */
     public List<String> mapToWords() throws Exception{
 
-        if (!loadDictionary() || !loadTelephone())
+        if (!loadDictionary() || !loadTelephone()) {
             System.out.println("Some error occurred while loading files.....");
-
+            return null;
+        }
         for(String num : numberList) {
             searchMatch(num,num, " ", false);
         }
