@@ -144,7 +144,7 @@ public class LutzProblem {
     }
 
     /**
-     *
+     * setters and getters
      */
     public void setTelephoneFilePath(String telephonePath){
         this.telephonePath = telephonePath;
