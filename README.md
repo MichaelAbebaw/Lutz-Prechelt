@@ -41,4 +41,4 @@ Similarly, orders can be saved in a file and piped into the program as
 The following guiding rules are assumed while developing the program
 - Positive integers are only allowed for volume and price as it is described in the case study.
 - Since there is no security concept described in the case study, the program assumes the operations are executed for an arbitrary security. Thus, there is no future included for listing and selecting securities. Yet, the OO design makes it very easy to include the concept.
-- In the case study description, Trade is described to print price and volume respectively as`TRADE price@volume`. However in the example given to demonstrate, the values are displayed in the reverse order, i.e. `TRADE volume@price`. But I used the latter format since the order was used in Buy and Sell operations. 
+- In the case study description, Trade is described to print price and volume respectively as`TRADE price@volume`. However in the example given to demonstrate, the values are displayed in the reverse order, i.e. `TRADE volume@price`. But I used the latter format since the ordering is used in Buy and Sell operations. 
