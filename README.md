@@ -5,7 +5,7 @@ Lutz Prechelt's language comparison test, Java implementation.
 
 # Order Matcher
 
-Order Matcher is a simulation of mini-trading platform for executing buy and sell orders at pre-defined prices. Though the OO design allows accommodating different securities to be traded on the platform, this particular implementation works for one arbitrary security. 
+Order Matcher is a simulation of mini-trading platform for executing Buy and Sell orders at pre-defined prices. Though the OO design allows accommodating different securities to be traded on the platform, this particular implementation works for one arbitrary security. 
 
 ## Prerequisites
 
@@ -41,4 +41,4 @@ Similarly, orders can be saved in a file and piped into the program as
 The following guiding rules are assumed while developing the program
 - Positive integers are only allowed for volume and price as it is described in the case study.
 - Since there is no security concept described in the case study, the program assumes the operations are executed for an arbitrary security. Thus, there is no future included for listing and selecting securities. Yet, the OO design makes it very easy to include the concept.
-- In the case study description, trade is described to print price first and volume next as `TRADE price@volume`. However in the example given to demonstrate, the values are displayed in reverse order, i.e. `TRADE volume@price`. It was confusing. But I thought it would be less confusing if I follow the latter format since it is used in buy and sell operations. 
+- In the case study description, Trade is described to print price and volume respectively as`TRADE price@volume`. However in the example given to demonstrate, the values are displayed in the reverse order, i.e. `TRADE volume@price`. But I used the latter format since the order was used in Buy and Sell operations. 
